@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>DlhSoft.ProjectManagementFramework.Xlsx</PackageId>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>DlhSoft</Authors>
+    <Description>Excel sheet adapter for DlhSoft Project Management Framework (Microsoft Project XML formatted content)</Description>
+    <Copyright>© Copyright 2021 DlhSoft</Copyright>
+    <PackageLicenseUrl>https://dlhsoft.com/LicenseAgreements/ComponentEULA.rtf</PackageLicenseUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Owners>DlhSoft</Owners>
+    <PackageProjectUrl>https://dlhsoft.com/PMF</PackageProjectUrl>
+    <PackageTags>Project, Excel</PackageTags>
+    <Title>DlhSoft Project Management Framework XSLX</Title>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <NoWarn>1701;1702;NU1701</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+    <NoWarn>1701;1702;NU1701</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DlhSoft.ProjectManagementFramework" Version="5.0.7.7" />
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.5-dev.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ProjectTemplate.xlsx" />
+  </ItemGroup>
+</Project>

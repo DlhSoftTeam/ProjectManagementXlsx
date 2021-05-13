@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementXlsx", "ProjectManagementXlsx\ProjectManagementXlsx.csproj", "{A5D470AC-EC7A-46DB-B911-0E3BA2558A1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectManagementXlsxConverter", "ProjectManagementXlsxConverter\ProjectManagementXlsxConverter.csproj", "{8B3CC488-0466-4BEC-9539-5DD20920260F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5D470AC-EC7A-46DB-B911-0E3BA2558A1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D470AC-EC7A-46DB-B911-0E3BA2558A1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D470AC-EC7A-46DB-B911-0E3BA2558A1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D470AC-EC7A-46DB-B911-0E3BA2558A1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B3CC488-0466-4BEC-9539-5DD20920260F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B3CC488-0466-4BEC-9539-5DD20920260F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B3CC488-0466-4BEC-9539-5DD20920260F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B3CC488-0466-4BEC-9539-5DD20920260F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
