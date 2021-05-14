@@ -21,7 +21,7 @@ namespace ProjectManagementXlsx
 
             var assembly = typeof(Adapter).Assembly;
             var x = assembly.GetManifestResourceNames();
-            using (var excelTemplateStream = assembly.GetManifestResourceStream("GanttChartExcelAdapter.ProjectTemplate.xlsx"))
+            using (var excelTemplateStream = assembly.GetManifestResourceStream("ProjectManagementXlsx.ProjectTemplate.xlsx"))
             {
                 using (var excelStream = new MemoryStream())
                 {
